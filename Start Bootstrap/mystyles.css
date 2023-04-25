@@ -1,0 +1,100 @@
+body {
+    background-image: url(img/dark.jpeg);
+    font-family: Arial, sans-serif;
+    color: ghostwhite;
+    }
+    
+    h1, h2 {
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    nav {
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    }
+    
+    nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+    
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    nav a:hover {
+      color:rgb(127, 212, 212);
+      text-shadow: #fff;
+      text-decoration: underline;
+
+    }
+
+    img{height: 125px;}
+
+    li {
+        font-size: small;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    nav li {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+        display: inline;
+        margin-right: 20px;
+        }
+    .left-div {
+        width: 20%;
+        float: left;
+        margin-right: 5%;
+        background-color: maroon;
+        border: 1px solid #523b21;
+        padding: 10px;
+      }
+      
+      .middle-div {
+        width: 20%;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-color: #f7ede2;
+    border: 1px solid #523b21;
+    padding: 10px;
+      }
+      
+      .right-div {
+        width: 20%;
+        float: right;
+        margin-left: 5%;
+        background-color: green;
+    border: 1px solid #523b21;
+    padding: 10px;
+      }
+      .container {
+        margin-left: 10%;
+        display:flex;
+        flex-direction: row;
+      }
+      video-container{
+        width: 49%;
+        border: 1px whitesmoke
+      }
+      .tableauPlaceholder {
+        width: 49%;
+        flex-wrap: nowrap;
+      }
+      .embed-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      span {
+        float: right;
+      }
+      .doesthiswork{
+        float:right;
+        
+      }
